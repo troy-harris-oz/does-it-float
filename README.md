@@ -1,4 +1,4 @@
 does-it-float
 =============
-Places shipt into sea. Does it float?
+Places ship into sea. Does it float?
 
