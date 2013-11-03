@@ -8,7 +8,7 @@ PATH=$PATH:~/bin
 export PATH
 source ~/.bashrc
 cs n8han/giter8
-g8 scalatra/scalatra-sbt --organization=$ORG --name=$NAME --servlet_name=$SERVLET --scala_version=$SCALA_VERSION
+g8 scalatra/scalatra-sbt --organization=$ORG --package=$PACKAGE --name=$NAME --servlet_name=$SERVLET --scala_version=$SCALA_VERSION
 cd scalatra-app
 chmod u+x sbt
 ./sbt compile
