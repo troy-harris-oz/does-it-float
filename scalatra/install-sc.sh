@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 # Install doc - http://scalatra.org/getting-started/installation.html
 
-SCALA_VERSION=2.10.2
-ORG=com.toldknow
-NAME=scalatra-app
-PACKAGE=com.toldknow.app
-SERVLET=AppServlet
+source ./app.config
 
 curl https://raw.github.com/n8han/conscript/master/setup.sh | sh
 PATH=$PATH:~/bin
