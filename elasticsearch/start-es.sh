@@ -5,6 +5,7 @@ ES_VERSION=0.90.5
 wget -O elasticsearch.tar.gz https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-$ES_VERSION.tar.gz
 tar xfv elasticsearch.tar.gz
 mv elasticsearch-$ES_VERSION elasticsearch-server
+rm elasticsearch.tar.gz
 
 ./elasticsearch-server/bin/plugin --install mobz/elasticsearch-head
 ./elasticsearch-server/bin/elasticsearch
