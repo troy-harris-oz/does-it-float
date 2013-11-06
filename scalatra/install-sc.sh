@@ -13,5 +13,4 @@ cd scalatra-app
 chmod u+x sbt
 ./sbt compile
 
-cd ./scalatra-app
 sbt container:start shell
