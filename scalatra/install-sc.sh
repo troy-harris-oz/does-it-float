@@ -12,3 +12,6 @@ g8 scalatra/scalatra-sbt --organization=$ORG --package=$PACKAGE --name=$NAME --s
 cd scalatra-app
 chmod u+x sbt
 ./sbt compile
+
+cd ./scalatra-app
+sbt container:start shell
